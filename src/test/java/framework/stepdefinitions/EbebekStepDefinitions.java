@@ -1,8 +1,8 @@
-package homework.stepdefinitions;
+package framework.stepdefinitions;
 
-import homework.pages.EbebekPage;
-import homework.utilities.ConfigReader;
-import homework.utilities.Driver;
+import framework.pages.EbebekPage;
+import framework.utilities.ConfigReader;
+import framework.utilities.Driver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
