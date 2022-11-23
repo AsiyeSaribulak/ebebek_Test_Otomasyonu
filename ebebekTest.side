@@ -1,0 +1,165 @@
+{
+  "id": "3a4cdbfc-987d-401f-b399-4f480893ffc6",
+  "version": "2.0",
+  "name": "ebebekTest",
+  "url": "https://www.e-bebek.com",
+  "tests": [{
+    "id": "58c68cf1-0b32-4298-885a-7bb29f0b3b03",
+    "name": "Ebebek",
+    "commands": [{
+      "id": "27277578-faf0-46fa-a164-ac215b00808c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5d11608-a070-49be-af94-e89dd83e7abf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "181aac38-2eeb-494a-a521-20c0e1902ada",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtSearchBox",
+      "targets": [
+        ["id=txtSearchBox", "id"],
+        ["css=#txtSearchBox", "css:finder"],
+        ["xpath=//input[@id='txtSearchBox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "254f571e-14c5-4583-be36-a82cdcf5a1e1",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtSearchBox",
+      "targets": [
+        ["id=txtSearchBox", "id"],
+        ["css=#txtSearchBox", "css:finder"],
+        ["xpath=//input[@id='txtSearchBox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "biberon"
+    }, {
+      "id": "10a9083b-c9f9-43a3-bdec-4115a4834e62",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=txtSearchBox",
+      "targets": [
+        ["id=txtSearchBox", "id"],
+        ["css=#txtSearchBox", "css:finder"],
+        ["xpath=//input[@id='txtSearchBox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "cf7d11a8-bb3b-4097-8067-50d87037123d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=İnternete Özel Ürünler",
+      "targets": [
+        ["linkText=İnternete Özel Ürünler", "linkText"],
+        ["css=cx-generic-link > #lnkHeaderInterneteOzelNavNode", "css:finder"],
+        ["xpath=//a[contains(text(),'İnternete Özel Ürünler')]", "xpath:link"],
+        ["xpath=//a[@id='lnkHeaderInterneteOzelNavNode']", "xpath:attributes"],
+        ["xpath=//li[@id='lnkHeaderInterneteOzelNavNode']/cx-generic-link/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/internete-ozel-urunler-c0002')]", "xpath:href"],
+        ["xpath=//eb-navigation-ui[4]/li/cx-generic-link/a", "xpath:position"],
+        ["xpath=//a[contains(.,'İnternete Özel Ürünler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "256b5469-54f1-4fba-8319-1b6d78e872ff",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c16a8057-c044-4d3e-b4e2-dc44fba6c752",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-6:nth-child(2) .product-item-anchor > .product-item-anchor",
+      "targets": [
+        ["css=.col-6:nth-child(2) .product-item-anchor > .product-item-anchor", "css:finder"],
+        ["xpath=//a[contains(@href, '/baby-plus-antikolik-pp-biberon-150ml-p-byp-294')]", "xpath:href"],
+        ["xpath=//eb-product-list-item[2]/div/eb-generic-link/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22bfc936-0b53-413c-8162-7db05ea72d40",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b741e47-8ff2-48a8-9331-8ff24e2e4b6d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81269139-35ea-4cd4-9629-2105f895124b",
+      "comment": "",
+      "command": "click",
+      "target": "id=addToCartBtn",
+      "targets": [
+        ["id=addToCartBtn", "id"],
+        ["css=#addToCartBtn", "css:finder"],
+        ["xpath=//button[@id='addToCartBtn']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sepete Ekle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb9ebccc-dbe0-4462-9fce-b35d99cb6961",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnShowCart",
+      "targets": [
+        ["id=btnShowCart", "id"],
+        ["linkText=Sepeti Gör", "linkText"],
+        ["css=#btnShowCart", "css:finder"],
+        ["xpath=//a[contains(text(),'Sepeti Gör')]", "xpath:link"],
+        ["xpath=//a[@id='btnShowCart']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '/cart')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sepeti Gör')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32b99af4-b02c-4fe9-ab9f-7c9adc57707c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,126)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bef7ad30-994d-49b3-bd2d-a5a4b50fce3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.basket-product-item",
+      "targets": [
+        ["css=.basket-product-item", "css:finder"],
+        ["xpath=//eb-cart-item/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "752a4d24-202f-4606-9aac-b15b63e0399c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["58c68cf1-0b32-4298-885a-7bb29f0b3b03"]
+  }],
+  "urls": ["https://www.e-bebek.com/"],
+  "plugins": []
+}
