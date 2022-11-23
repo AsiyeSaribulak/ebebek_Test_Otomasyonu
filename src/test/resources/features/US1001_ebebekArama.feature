@@ -6,4 +6,6 @@
       When kullanici ebebek sayfasina gider
       And biberon icin arama yapar
       Then sonucun biberon icerdigini test eder
-      And sayfayi kapatir
+      Given urun linkine tikla
+      And sepete ekle butonuna tikla
+      And sepeti gor butonuna tikla

@@ -28,6 +28,18 @@ public class EbebekStepDefinitions {
         Assert.assertTrue(ebebekPage.sonucYazisiElementi.getText().contains("biberon"));
         throw new io.cucumber.java.PendingException();
     }
+    @Given("urun linkine tikla")
+    public void urun_linkine_tikla(){
+        ebebekPage.productLink.click();
+    }
+    @And("sepete ekle butonuna tikla")
+    public void sepete_ekle_butonuna_tikla(){
+        ebebekPage.ekleButton.click();
+    }
+    @And("sepeti gor butonuna tikla")
+    public void sepeti_gor_butonuna_tikla(){
+        ebebekPage.sepetiGorButton.click();
+    }
     @Then("sayfayi kapatir")
     public void sayfayi_kapatir() {
         Driver.closeDriver();
@@ -51,4 +63,5 @@ public class EbebekStepDefinitions {
 
         Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
     }
+
 }
